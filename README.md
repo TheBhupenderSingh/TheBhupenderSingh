@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ... any projects related to Java Springboot backend and React, Node.js Frontend
 - 📫 How to reach me ... Email me on lkywww1@gmail.com
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ... Web development is like a having a girlfriend ,learning new things are regular effort is necessory for maintaining the relationship.
+- ⚡ Fun fact: ... Web development is like a having a wife ,learning new things and regular effort is necessory for maintaining the relationship.
 
 <!---
 TheBhupenderSingh/TheBhupenderSingh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
