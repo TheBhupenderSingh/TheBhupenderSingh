@@ -1,5 +1,17 @@
 First fixed format
 
+  const handleChange = (param: string, field: "min" | "max", value: string) => {
+    let num = value === "" ? null : parseFloat(value);
+    if (num !== null) {
+      if (num < 0) num = 0;
+      if (num > 10) num = 10;
+    }
+    setFilters((prev) => ({
+      ...prev,
+      [param]: { ...prev[param], [field]: num },
+    }));
+  };
+
  <Input
               type="number"
               placeholder="Min"
