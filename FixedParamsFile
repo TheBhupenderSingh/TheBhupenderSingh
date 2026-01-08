@@ -1,5 +1,26 @@
 First fixed format
 
+ <Input
+              type="number"
+              placeholder="Min"
+              min="0"
+              max="10"
+              step="0.1"
+              value={filters[param].min ?? ""}
+              onChange={(e) => handleChange(param, "min", e.target.value)}
+              className="w-20"
+            />
+            <Input
+              type="number"
+              placeholder="Max"
+              min="0"
+              max="10"
+              step="0.1"
+              value={filters[param].max ?? ""}
+              onChange={(e) => handleChange(param, "max", e.target.value)}
+              className="w-20"
+            />
+
 // src/components/RiskFactorFilter.tsx
 import React, { useEffect, useState } from "react";
 import axios from "axios";
